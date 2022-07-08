@@ -1835,7 +1835,7 @@ Usage (In Ghost editor):
     margin: 1em auto 0;
     max-width: 400px;
     color: var(--red);
-    font-size: 1.6rem;
+    font-size: 3rem;
     line-height: 1.5em;
     text-align: center;
 }
