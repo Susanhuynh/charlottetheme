@@ -3860,10 +3860,10 @@ form[data-members-form].error .message-error {
        padding-right: 15px;
     }
     
-    a .fa-twitter {
-        color: #00acee;
+    a.fa-twitter-square {
+        background-color: #00acee;
     }
-    a .fa-discord {
+    a.fa-discord {
         color: #5865F2;
     }
 }
