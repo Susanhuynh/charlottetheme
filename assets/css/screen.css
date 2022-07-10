@@ -3858,4 +3858,8 @@ form[data-members-form].error .message-error {
     .social-media-icon svg {
         fill: white;
     }
+
+    .social-media-icon {
+        max-width: 20px;
+    }
 }
