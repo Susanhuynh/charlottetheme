@@ -111,17 +111,6 @@ into the {body} of the default.hbs template --}}
                     {{content}}
                 </div>
             </section>
-                <section class="article-share gh-canvas">
-                    <div class="footer-share">
-                        Share
-                        <ul class="share">
-                            <li class="twitter"><a href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}" onclick="window.open(this.href, 'share-twitter', 'width=600,height=300');return false;"><i class="fab fa-twitter"></i></a></li>
-                            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" onclick="window.open(this.href, 'share-facebook', 'width=600,height=300');return false;"><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="reddit"><a href="https://www.reddit.com/submit?url={{url absolute="true"}}" onclick="window.open(this.href, 'share-reddit', 'width=600,height=600');return false;"><i class="fab fa-reddit-alien"></i></a></li>
-                            <li class="copylink"><a href="/" onclick="prompt('Share this link:',window.location.href); return false;"><i class="fas fa-link"></i></a></li>
-                        </ul>
-                    </div>
-                </section>
             {{!--
             <section class="post-full-comments">
                 If you want to embed comments, this is a good place to do it!
@@ -131,6 +120,17 @@ into the {body} of the default.hbs template --}}
         </article>
 
     </div>
+    <section class="article-share gh-canvas">
+        <div class="footer-share">
+            Share
+            <ul class="share">
+                <li class="twitter"><a href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}" onclick="window.open(this.href, 'share-twitter', 'width=600,height=300');return false;"><i class="fab fa-twitter"></i></a></li>
+                <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" onclick="window.open(this.href, 'share-facebook', 'width=600,height=300');return false;"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="reddit"><a href="https://www.reddit.com/submit?url={{url absolute="true"}}" onclick="window.open(this.href, 'share-reddit', 'width=600,height=600');return false;"><i class="fab fa-reddit-alien"></i></a></li>
+                <li class="copylink"><a href="/" onclick="prompt('Share this link:',window.location.href); return false;"><i class="fas fa-link"></i></a></li>
+            </ul>
+        </div>
+    </section>
 </main>
 
 {{!-- Links to Previous/Next posts --}}

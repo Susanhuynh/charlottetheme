@@ -3861,15 +3861,9 @@ form[data-members-form].error .message-error {
     .share .reddit { background: #ef4a0e;}
     .share .copylink { background: #768089;}
 
-    .footer-share {
-        padding-top: 50px;
-        font-size: 14px;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-    }
+    
 
-    ul.share{
+    ul.share li{
         list-style-type: none;
         display: flex;
     }
