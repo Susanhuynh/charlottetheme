@@ -3856,11 +3856,11 @@ form[data-members-form].error .message-error {
         color: var(--darkgrey);
     }
     /* add style sheet for media icon added on the nav bar top right */
-    .site-nav-right .twitter {
+   li.twitter {
         color: #00acee;
     }
     
-    .site-nav-right .discord {
+    li.discord {
         color: #5865F2;
     }
 }
