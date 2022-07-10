@@ -3857,16 +3857,14 @@ form[data-members-form].error .message-error {
     }
     /* add style sheet for media icon added on the nav bar top right */
 }
-
-@media (min-width:1024px) {
     .share {
         list-style-type: none;
     }
     
     section.article-share {
         position: fixed;
-        top: 150px;
-        right: 500px;
+        top: 300px;
+        right: 20px;
         max-width: 50px;
         z-index: 100;
     }
@@ -3877,4 +3875,3 @@ form[data-members-form].error .message-error {
     }
     
     .footer-share ul { padding: 0px;}
-}
