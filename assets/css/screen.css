@@ -3856,7 +3856,6 @@ form[data-members-form].error .message-error {
     }
     /* add style sheet for media icon added on the nav bar top right */
     .social-media-icon svg {
-        width: 1.8em;
         fill: white;
     }
 }
