@@ -3858,7 +3858,7 @@ form[data-members-form].error .message-error {
     /* add style sheet for media icon added on the nav bar top right */
 }
 
-@media (min-width:800px) {
+@media (min-width:1024px) {
     .share {
         list-style-type: none;
     }
