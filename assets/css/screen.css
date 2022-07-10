@@ -3861,7 +3861,11 @@ form[data-members-form].error .message-error {
     }
 
     li .twitter {
-        list-style-type: none;
+        color: #00acee;
+    }
+
+    li .discord {
+        color: #5865F2;
     }
     
 }
