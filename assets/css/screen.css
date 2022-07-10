@@ -3869,7 +3869,7 @@ form[data-members-form].error .message-error {
         justify-content: flex-end;
     }
 
-    .share {
+    ul.share li{
         list-style-type: none;
         display: flex;
     }
@@ -3887,6 +3887,7 @@ form[data-members-form].error .message-error {
         line-height: 16px;
         text-align: center;
         border-radius: 5px;
+        display: inline;
     }
 
 }
