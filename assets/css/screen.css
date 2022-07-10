@@ -480,7 +480,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     height: 64px;
     font-size: 1.4rem;
     line-height: 1.0em;
-    list-style-type: none;
 }
 
 .site-nav-right a {
@@ -3859,4 +3858,18 @@ form[data-members-form].error .message-error {
     .social-media-icon svg {
         fill: white;
     }
+
+    .footer-share {
+        padding-top: 50px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .share {
+        list-style-type: none;
+        display: flex;
+    }
+    
 }
