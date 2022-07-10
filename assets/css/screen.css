@@ -3859,9 +3859,8 @@ form[data-members-form].error .message-error {
         fill: white;
     }
 
-    .share {
+    li .twitter {
         list-style-type: none;
-        display: flex;
     }
     
 }
