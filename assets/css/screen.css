@@ -3869,7 +3869,7 @@ form[data-members-form].error .message-error {
         justify-content: flex-end;
     }
 
-    ul.share li{
+    ul.share{
         list-style-type: none;
         display: flex;
     }
