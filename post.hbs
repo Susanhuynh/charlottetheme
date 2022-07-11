@@ -116,7 +116,11 @@ into the {body} of the default.hbs template --}}
                 If you want to embed comments, this is a good place to do it!
             </section>
             --}}
-            <div id="disqus_thread"></div>
+            {{
+            #if
+            *access*}}
+            <!-- Your commenting service -->
+                <div id="disqus_thread"></div>
                 <script>
                     /**
                     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -135,8 +139,13 @@ into the {body} of the default.hbs template --}}
                     })();
                 </script>
                 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-              
-
+            {{else}}
+            <p>You're missing out on the conversation. Become a member and join in.</p>
+            <a href="#/portal/">Subscribe</a>
+            {{
+            /if
+            }}
+            
         </article>
 
     </div>
