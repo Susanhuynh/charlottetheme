@@ -3880,15 +3880,15 @@ form[data-members-form].error .message-error {
     .footer-share ul { padding: 0px;}
     
     .share i.fa-twitter-square {
-		background-color: #00acee;
+		color: #00acee;
     }
     
     .share i.fa-facebook-square{
-		background-color: #4267B2;    
+		color: #4267B2;    
     }
     
     .share i.fa-reddit-square {
-    	background-color: #FF5700;
+    	color: #FF5700;
     }
 }
 
