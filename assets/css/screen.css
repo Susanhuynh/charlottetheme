@@ -3879,17 +3879,29 @@ form[data-members-form].error .message-error {
     
     .footer-share ul { padding: 0px;}
     
-    .share i.fa-twitter {
-		color: #00acee;
+    .share i.fa-twitter-square {
+		background-color: #00acee;
     }
     
-    .share i.fa-facebook-f{
-		color: #4267B2;    
+    .share i.fa-facebook-square{
+		background-color: #4267B2;    
     }
     
-    .share i.fa-reddit-alien {
-    	color: #FF5700;
+    .share i.fa-reddit-square {
+    	background-color: #FF5700;
     }
+}
+
+@media (max-width:700px) {
+    .social-media-icon{
+        position: fixed; 
+        bottom: 18px; 
+        right: 156px;
+        z-index: 100; 
+        list-style-type: none;
+    
+  }
+
 }
 
 
