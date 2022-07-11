@@ -125,9 +125,10 @@ into the {body} of the default.hbs template --}}
 <section class="article-share gh-canvas">
     <div class="footer-share">
         <h3>Share</h3>
-        <ul class="share"><i class="fa-brands fa-twitter-square"></i><i class="fab fa-twitter"></i></a></li>
-            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" onclick="window.open(this.href, 'share-facebook', 'width=600,height=300');return false;"><i class="fa-brands fa-facebook-square"></i></a></li>
-            <li class="reddit"><a href="https://www.reddit.com/submit?url={{url absolute="true"}}" onclick="window.open(this.href, 'share-reddit', 'width=600,height=600');return false;"><i class="fa-brands fa-reddit-square"></i></i></a></li>
+        <ul class="share">
+            <li class="twitter"><a href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}" onclick="window.open(this.href, 'share-twitter', 'width=600,height=300');return false;"><i class="fab fa-twitter-square"></i></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" onclick="window.open(this.href, 'share-facebook', 'width=600,height=300');return false;"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="reddit"><a href="https://www.reddit.com/submit?url={{url absolute="true"}}" onclick="window.open(this.href, 'share-reddit', 'width=600,height=600');return false;"><i class="fab fa-reddit-square"></i></a></li>
             <li class="copylink"><a href="/" onclick="prompt('Share this link:',window.location.href); return false;"><i class="fa-solid fa-square-arrow-up-right"></i></a></li>
         </ul>
     </div>
