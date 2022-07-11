@@ -3858,6 +3858,18 @@ form[data-members-form].error .message-error {
     /* add style sheet for shared media icon added on post page */
 }
 
+.share i.fa-twitter-square {
+    color: #00acee;
+}
+
+.share i.fa-facebook-square{
+    color: #4267B2;    
+}
+
+.share i.fa-reddit-square {
+    color: #FF5700;
+}
+
 @media (min-width:700px) {
     .share {
         list-style-type: none;
@@ -3879,18 +3891,6 @@ form[data-members-form].error .message-error {
     }
     
     .footer-share ul { padding: 0px;}
-    
-    .share i.fa-twitter-square {
-		color: #00acee;
-    }
-    
-    .share i.fa-facebook-square{
-		color: #4267B2;    
-    }
-    
-    .share i.fa-reddit-square {
-    	color: #FF5700;
-    }
 }
 
 @media (max-width:700px) {
