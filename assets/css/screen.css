@@ -3858,7 +3858,7 @@ form[data-members-form].error .message-error {
     /* add style sheet for shared media icon added on post page */
 }
 
-@media (min-width) {
+@media (min-width:700px) {
     .share {
         list-style-type: none;
     }
